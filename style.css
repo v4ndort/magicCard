@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    /*O pixel não é responsivo, ele é forçado. É legal usar rem*/
+    /* 1 rem = 16px (User Agent) = 100% (User Agent) padrão de navegadores */
+    font-size: 62.5%
+    /*10px - irá colocar o padrão em 10px*/
+}
+
+body{
+    font-size: 2rem;
+    font-family: serif;
+}
+
+h1{
+    font-size: 1.5rem;   
+}
+
+img{
+    margin: -0.9rem auto;
+    margin-left: 1.1rem;
+    border: 1px solid #000000;
+    outline: 2px solid rgb(40, 114, 71);
+}
+
+/* ---------bigger box---------- */
+
+.cards{
+    width: 245px;
+    height: 370px;
+    
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    border-bottom: 22px solid #06052e;
+    background-color: #007442;
+    outline: 10px  solid #06052e;
+}
+
+
+#titlecard01{
+    text-indent:1rem ;
+    text-align: left;
+    background-color: #D9E5DE;
+    
+    width: 23.5rem;
+    margin:0.5rem auto 1.2rem auto;
+
+    border: 1.2px solid black;
+    border-radius: 0.7rem;
+}
+
+#circle02{
+    margin: -1.3rem -6.9rem 0.4rem 20.1rem;
+
+}
+
+.circle{
+    background-color:rgb(236, 233, 190);
+    
+    width:10px;
+    height:10px;
+    margin: -1.3rem 0.1rem 0.3rem 21.2rem;
+
+    border-radius:100%;
+    border: 1px solid black;
+
+   
+}
+
+/* -----------Lower boxes----------- */
+#tipology{
+
+    width: 230px;
+    margin:0.7rem auto 0.2rem auto;
+    
+    font-size: 1.2rem;
+    text-align: center;
+    text-align: left;
+    padding: 1.3px;
+    text-indent: 0.3rem;
+    
+    border-radius: 1rem;
+    border: 1.4px solid black;
+    background: #D9E5DE;
+}
+
+#litboxtip{
+    width: 22px;
+    height: 13px;
+
+    background-color:#DCC488;
+    border-radius: 0.4rem;
+    border: 0.5px solid black;
+
+    margin:-1.8rem 1rem 0rem 20.9em;
+    position: absolute;
+
+    font-size: 1rem;
+    text-align: center;
+    padding: 1px;
+    font-weight: bolder;
+}
+
+/* --------- Descrição---------- */
+
+#litbox{
+    position:absolute;
+    text-align: center;
+    height: 1.5rem;
+    width: 2.4rem;
+    padding: 0.1rem;
+
+    background: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: -1.0rem 3rem 0rem 20rem;
+
+    border: 1px solid black;
+    border-radius: 0.3rem;
+}
+
+.down{
+    height: 125px;
+    width: 225px;
+
+    margin: 0.4rem auto auto auto;
+    padding: 0.50rem;
+
+    background: #D9E5DE;
+    border: 1.1px solid #0abe64;
+    outline: 1px solid black;
+}
+
+.description{
+    font-size: 0.9rem;
+    text-align: justify;
+    padding: 0.7rem;
+}
+
+#p1{
+    margin-top: -0.5rem ;
+}
+
+#p2{
+    margin-top: -0.5rem ;
+}
+
+#p3{
+    font: italic bold 1.1rem serif;
+    text-align: center;
+    margin: .1rem auto 1rem auto;
+}
+
+#litbox{
+    text-align: center;
+    height: 1.5rem;
+    width: 2.5rem;
+    padding: 0.1rem;
+
+    background: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: -1.0rem 1rem 0rem 20rem;
+
+    border: 1px solid black;
+    border-radius: 0.3rem;
+}
+
+/* ----------------footer */
+
+#footer1{
+    font-size: 0.9rem;
+    color: rgb(214, 211, 211);
+
+    background: #06052e;
+
+    display: flex;
+    position: fixed;
+
+
+    margin: 1rem 2rem  1rem;
+}
+
+#pfooter1{
+    margin-left: -2.4rem;
+}
+
+#pfooter2{
+    margin-left: 8rem;
+    margin-top: 1.1rem;
+}
